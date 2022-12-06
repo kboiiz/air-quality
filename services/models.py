@@ -1,5 +1,5 @@
 """database table models"""
-from app import db
+from air_app.app import db
 
 class Temps(db.Model):
     """Data model for sensor reading data point."""
